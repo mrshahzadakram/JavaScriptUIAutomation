@@ -41,7 +41,7 @@ In order to start using or testing the project, there are a series of steps that
 If you haven't cloned the project yet, the first step you should do is clone the repository via HTTPS or SSH, if you have your keys configured.
 
 ```sh
-   git clone https://{user}@bitbucket.org/rocketmatter/automation-v3.git
+   git clone https://{user}@bitbucket.org/repoName.git
 ```
 
 In order to run the project's commands and scripts, you need to have NodeJS  and NPM installed. If you don't have it installed yet, follow these steps:
@@ -144,7 +144,7 @@ Feature: Feature_Name
 
   @example-scenario
   Scenario: 001 Example of a feature file
-    Given Im logged into Rocket Matter as "sjones"
+    Given Im logged into application as "shahzad"
     When I navigate to the "settings" page
     Then I should see settings page features
     And I should be able to see the add-new button
@@ -195,7 +195,7 @@ Inside the utils folder, in the file **consts.js** you will see that there is a 
 ```javascript
 //Change the environment or install.
 //const base = `http://localhost/otive_test/`;
-const base = `https://rm31az2.rocketmatter.net/API_V3_Test01/`;
+const base = `https://test.com/API_V3_Test01/`;
 ```
 
 

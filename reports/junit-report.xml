@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+    <testsuite name="newemployee;001-check-my-profile-information" tests="31" failures="1" skipped="0">
+        <properties>
+            <property name="@check-create_new_employee" value="true">
+            </property>
+            <property name="URI" value="E:/Automation data/WorkMotionAssessment/AssessmentProject/features/NewEmployee.feature">
+            </property>
+        </properties>
+        <testcase name="Given Im logged into workmotion as &quot;aliaa+qahrmanager@workmotion.com&quot;" classname="newemployee;001-check-my-profile-information" time="12.9890385">
+        </testcase>
+        <testcase name="When I click on the add employee button" classname="newemployee;001-check-my-profile-information" time="1.0684738">
+        </testcase>
+        <testcase name="And I click on the create new link of the add employee menu" classname="newemployee;001-check-my-profile-information" time="1.1123736">
+        </testcase>
+        <testcase name="Then I should see the &quot;Where do you want to hire?&quot; message on the page" classname="newemployee;001-check-my-profile-information" time="9.0728861">
+        </testcase>
+        <testcase name="When I select the &quot;Pakistan&quot; country from the dropdown" classname="newemployee;001-check-my-profile-information" time="7.461103">
+        </testcase>
+        <testcase name="And I click the get Started button on country selections page" classname="newemployee;001-check-my-profile-information" time="2.1986477">
+        </testcase>
+        <testcase name="Then the following information should match for the contrat details page:" classname="newemployee;001-check-my-profile-information" time="7.11018">
+        </testcase>
+        <testcase name="When I fill the employee agreement details of step 1 using following information:" classname="newemployee;001-check-my-profile-information" time="21.9834858">
+        </testcase>
+        <testcase name="And I click continue button" classname="newemployee;001-check-my-profile-information" time="4.2110038">
+        </testcase>
+        <testcase name="And I fill the contract clauses details of step 2 using following information:" classname="newemployee;001-check-my-profile-information" time="28.3334323">
+        </testcase>
+        <testcase name="And I click continue button" classname="newemployee;001-check-my-profile-information" time="4.1516489">
+        </testcase>
+        <testcase name="And I fill the salary calculator details of step 3 using following information:" classname="newemployee;001-check-my-profile-information" time="18.6162458">
+        </testcase>
+        <testcase name="And I click on calculate button on salary calculator" classname="newemployee;001-check-my-profile-information" time="3.1892874">
+        </testcase>
+        <testcase name="Then I should see &quot;Estimated Onboarding Cost&quot; section containing &quot;OTHER PAYMENTS&quot; &quot;ONE TIME PAYMENTS&quot; &quot;MONTHLY PAYMENT&quot; &quot;Total Gross And Allowances&quot; and &quot;Employer Contributions&quot; details on salary calculator page" classname="newemployee;001-check-my-profile-information" time="3.066919">
+        </testcase>
+        <testcase name="And I click continue button" classname="newemployee;001-check-my-profile-information" time="4.1435638">
+        </testcase>
+        <testcase name="And I fill the invite employee details of step 4 using following information:" classname="newemployee;001-check-my-profile-information" time="5.1946855">
+        </testcase>
+        <testcase name="And I click continue button" classname="newemployee;001-check-my-profile-information" time="4.1298235">
+        </testcase>
+        <testcase name="Then I should see that the summary review details on step 5 has &quot;CONTRACT DETAILS&quot; &quot;CONTRACT CLAUSES&quot; &quot;SALARY CALCULATOR&quot; &quot;INVITE EMPLOYEE&quot; &quot;FEE ESTIMATE&quot; sections" classname="newemployee;001-check-my-profile-information" time="7.0610294">
+        </testcase>
+        <testcase name="And I should see &quot;Estimated Onboarding Cost&quot; section containing &quot;OTHER PAYMENTS&quot; &quot;ONE TIME PAYMENTS&quot; &quot;MONTHLY PAYMENT&quot; &quot;Total Gross And Allowances&quot; and &quot;Employer Contributions&quot; details on salary calculator page" classname="newemployee;001-check-my-profile-information" time="3.0619101">
+        </testcase>
+        <testcase name="And I should be able to download agreement" classname="newemployee;001-check-my-profile-information" time="5.1074665">
+        </testcase>
+        <testcase name="When I click the checkbox on summary review page to confirm onboarding process" classname="newemployee;001-check-my-profile-information" time="4.1126853">
+        </testcase>
+        <testcase name="And I click finish button" classname="newemployee;001-check-my-profile-information" time="2.1244399">
+        </testcase>
+        <testcase name="Then I should see a message &quot;Congratulations, Onboarding has started!&quot; on new page" classname="newemployee;001-check-my-profile-information" time="5.0457428">
+        </testcase>
+        <testcase name="And I should see &quot;ADDITIONAL DETAILS NEEDED&quot; text on new page" classname="newemployee;001-check-my-profile-information" time="5.039806">
+        </testcase>
+        <testcase name="When I fill the additional finance details and manager details using following information:" classname="newemployee;001-check-my-profile-information" time="4.3995695">
+        </testcase>
+        <testcase name="And I click finish button" classname="newemployee;001-check-my-profile-information" time="2.1156832">
+        </testcase>
+        <testcase name="Then I should see a confirmation message &quot;Thanks for completing the onboarding experience!&quot;" classname="newemployee;001-check-my-profile-information" time="5.0508533">
+        </testcase>
+        <testcase name="When I click action items link from left panel of the page" classname="newemployee;001-check-my-profile-information" time="2.1035153">
+        </testcase>
+        <testcase name="Then I should see &quot;Action items&quot; page containing &quot;UNCOMPLETED ACTIONS&quot; related records" classname="newemployee;001-check-my-profile-information" time="5.0554697">
+        </testcase>
+        <testcase name="When I click mark as done button against newly created record" classname="newemployee;001-check-my-profile-information" time="2.1107851">
+        </testcase>
+        <testcase name="Then I should see that new entry has now done status in action items page" classname="newemployee;001-check-my-profile-information" time="13.2740262">
+            <failure message="TypeError: Cannot read properties of undefined (reading &apos;getText&apos;)">TypeError: Cannot read properties of undefined (reading &apos;getText&apos;)
+    at createWorld.&lt;anonymous&gt; (E:\Automation data\WorkMotionAssessment\AssessmentProject\step-definitions\new-employee.js:474:39)</failure>
+        </testcase>
+    </testsuite>
+</testsuites>

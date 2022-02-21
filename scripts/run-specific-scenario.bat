@@ -1,0 +1,1 @@
+npm run test-win -- --tags=@%1

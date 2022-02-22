@@ -2,12 +2,12 @@
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
-  <img align="center" src="assets/images/rm_banner_logo.png" alt="Logo" height="80">
+  <img align="center" src="assets/images/workmotion_logo.png" alt="Logo" height="80">
 
 <h1 align="center">UI Automation</h1>
 
   <p align="center">
-    UI Automation for every feature on WorkMotion application. 
+    UI Automation for new employee creation feature on WorkMotion application. 
 </div>
 
 <!-- ABOUT THE PROJECT -->
